@@ -32,6 +32,8 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background("skyblue");
+  Engine.update(engine);
+  
 
   
   hammer.display();
